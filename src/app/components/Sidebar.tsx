@@ -32,7 +32,7 @@ export default function Sidebar({ isOpen, onClose, onSectionSelect }: SidebarPro
           isOpen ? "translate-x-0" : "-translate-x-full"
         } fixed top-0 left-0 h-full`}
       >
-        <div className="p-6 pt-16 lg:pt-6">
+        <div className="p-6 pt-20">
           <h2 className="text-white text-xl font-semibold mb-6">Menu</h2>
           <nav>
             <ul className="space-y-1">
